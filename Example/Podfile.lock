@@ -1,0 +1,62 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.5)
+  - glog (0.3.4)
+  - ReactNativeCallInvoker (0.1.0)
+  - ReactNativeCxxreact (0.1.0):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion (= 1.1.5)
+    - glog (= 0.3.4)
+    - ReactNativeCallInvoker
+    - ReactNativeFolly
+    - ReactNativeInspector
+  - ReactNativeExecutor (0.1.0):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion (= 1.1.5)
+    - glog (= 0.3.4)
+    - ReactNativeCxxreact
+    - ReactNativeFolly
+    - ReactNativeJsi
+  - ReactNativeFolly (0.1.6):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion (= 1.1.5)
+    - glog (= 0.3.4)
+  - ReactNativeInspector (0.1.0)
+  - ReactNativeJsi (0.1.0):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion (= 1.1.5)
+    - glog (= 0.3.4)
+    - ReactNativeFolly (= 0.1.6)
+
+DEPENDENCIES:
+  - ReactNativeExecutor (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+    - ReactNativeCallInvoker
+    - ReactNativeCxxreact
+    - ReactNativeFolly
+    - ReactNativeInspector
+    - ReactNativeJsi
+
+EXTERNAL SOURCES:
+  ReactNativeExecutor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  ReactNativeCallInvoker: 1e9ffb6bd3d85d13fa80763c37917c3ec64744be
+  ReactNativeCxxreact: a1d4ccfeaaf7dae4ec187345ec07e245f10c4ce6
+  ReactNativeExecutor: 95578f5975433e00036b87e6cdfdd9618743866e
+  ReactNativeFolly: 441c57941fc336af649ce5c4d62fe6a29e17305a
+  ReactNativeInspector: 274dcd5cba8b08780fd255c7c291d159f88afd1c
+  ReactNativeJsi: 9547bffbbde5095955967625b3b9315fa34468ed
+
+PODFILE CHECKSUM: 7b614ea6c31034da5aeabafca0a796baefcb3ad8
+
+COCOAPODS: 1.10.1

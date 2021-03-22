@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'ReactNativeExecutor_Example' do
+  pod 'ReactNativeExecutor', :path => '../'
+
+  target 'ReactNativeExecutor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
